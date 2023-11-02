@@ -1,0 +1,387 @@
+
+*{
+    overflow-x: hidden;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+header {
+    background-color:#1D4D8B ;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    max-width: 6300px;
+    max-height: 80%;
+    position: fixed;
+}
+
+.sect-h1 {
+   display: inline;
+}
+
+.sect-h1 > a {
+  position: relative;
+  left: 10vh;
+  top: 5vh;
+}
+
+.sect-h1 > a > img {
+    position: relative;
+    left: -5vw;   
+    bottom: 5vh;
+  }
+
+
+.nav-h {
+   display: flex;
+   position: relative;
+   bottom: 100%;
+}
+
+.list-h {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    position: relative;
+    bottom: 50px;
+}
+
+.list-h > li {
+    margin-left: 100px;
+}
+
+.list-h > li > a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.list-h > li > a > img {
+    position: relative;
+    left: 10vh;
+    bottom: 5vh;
+    min-width: 3vmax;
+    min-height: 3vmax;
+    max-width: 5vmax;
+    max-height: 5vmax;
+}
+
+.sect-h2 {
+    background-color: #7e8082;
+}
+/* INICIO DE SECCION */
+.Box-Init {
+    min-width:100vw ;
+    height: 100%;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 100px);
+    gap: 15px;
+}
+.Box-Init h2 {
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   grid-column:1 / 4 ;
+   grid-row: 1 / 2;
+   margin-right: 20vmax;
+}
+
+.Box-Init input, .Box-Init button {
+  width: 40vw;
+  height: 50px;
+  text-align: center;
+  font-size: x-large;
+  color: aliceblue;
+  background: #1D4D8B;
+  border: none;
+  border-radius: 5px;
+}
+
+.inp {
+ margin-left: 10vh;
+}
+
+.inp:nth-child(1) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2 ;
+}
+
+.inp:nth-child(2) {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2 ;
+}
+
+.inp:nth-child(3) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3 ;
+}
+
+.inp:nth-child(4) {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3 ;
+}
+
+.Box-Init button{
+    grid-row: 4 / 6;
+    grid-column:1 / 4;
+    margin-left: 30vw;
+}
+
+
+/* Inicio Hoteles */
+.Search {
+    min-width:100vw;
+ }
+ 
+ .Search img {
+     min-width:100vw;
+     height:50vmax;
+ }
+ 
+ .Search h2 {
+    color: aliceblue;
+    text-align: justify;
+    font-size: 40px;
+    rotate: 140deg;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 10vmax;
+    left: 40vmax;
+ }
+   
+ .Search span{
+     color: #1D4D8B;
+ }
+   /* Inicio */
+ .cont1 {
+    overflow: hidden;
+     width:50%;
+     height: 20vmax;
+     position: relative;
+     left: 5%;
+     bottom: 50vmax;
+     z-index: 2;
+     background-color: rgba(220,220,220,0.50);
+     border-radius:10px;
+     display: grid;
+     grid-template-columns: repeat(2, 20vmax);
+     grid-template-rows: repeat(5, 4vmax);
+     gap: 4vh;
+ }
+ 
+ .Inp-h, .Inp-c1, .Inp-c2, .button1  {
+    color: white;
+    width: 20vw;
+    padding: 0.7em;
+    border:none;
+    border-radius: 5px;
+    margin: 5px 0px 0px 5px;
+ }
+
+.Inp-c1, .Inp-c2 {
+  font-size: 2vmax;
+  padding: 0;
+  position: absolute;
+  display: inline;
+  bottom: 50px;
+}
+
+ 
+ .Inp-c1 {
+   margin-left: 5vh ;
+   margin-bottom: 7vh;
+ }
+
+ .Inp-c2 {
+   margin-left: 50vh;
+   margin-bottom: 19vh;
+ }
+
+ 
+ 
+
+ .button1 {
+    overflow: hidden;
+    padding: 0.7em;
+    background: #1D4D8B;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+ }
+
+
+
+
+
+/* INICIO DE SECCION CEAR CUENTA */
+
+.Search {
+  
+}
+
+.Search h2 {
+  color: aliceblue;
+  rotate: 30deg;
+}
+
+.Search span{
+  color: #1D4D8B;
+}
+
+
+
+.init-sect {
+    position: fixed;
+    left: 5vw;
+    width: 75%;
+    height: 25vw;
+    background-color: gray;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.init-sect h2{
+    color: rgb(0, 0, 0);
+    margin-left:50%;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2; 
+}
+
+
+.container ul  li  button {
+    width:4em;
+    height:4em;
+    border:none;
+    background-color: rgb(37, 40, 52);
+    color: white;
+    padding-top: 0.4em;
+    border-radius: 50%;
+    transition: 0.4;
+    cursor: pointer;
+}
+/* cards */
+.cont-h {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cart {
+  border: none;
+  overflow: hidden;
+  margin-top: 2vh;
+  margin-left: 5%;
+}
+  
+.cart img {
+    overflow: hidden;
+  width: 50vw;
+  height: 40vh;
+}
+
+.cart h2, .cart p {
+    overflow: hidden;
+  color: white;
+  font-size: 4vh;
+  position: relative;
+  bottom: 20vh;
+}
+
+.carty {
+    width: 80vw;
+    height: auto;
+    overflow: hidden;
+    margin-top: 5vh;
+    margin-left:5% ;
+}
+
+.carty img {
+    width: 100%;
+    height: 50vw;
+    overflow: auto;
+}
+
+
+
+/* carrousel */
+.carouselL {
+    width: 80%;
+    height: 100%;
+    margin-left: 10vmax;
+    margin-top: 5vw;
+}
+
+.det {
+    border:0.5vw solid #1D4D8B;
+    background-color: rgb(114, 175, 215);
+    list-style: none;
+    margin-top: 2vw;
+}
+.det > * {
+   text-align: center;
+   font-size: 1.5vw;
+   font-family: Geneva;
+   list-style: none;
+}
+
+
+
+/* foot */
+footer{
+    background-color: #1D4D8B;
+    margin-top: 40px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-h2{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer-ul{
+    padding-right: 80px;
+    border-right: 2px solid white;
+}
+
+.footer-h2 li{
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+li{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-svg{
+    width: 35px;
+    border-bottom: solid 1px #002C65;
+    cursor: pointer;
+}
+
+
+
